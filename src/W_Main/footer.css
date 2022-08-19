@@ -1,0 +1,13 @@
+.nav-link{
+    display:inline ;
+    color:rgb(8, 246, 234);
+}
+
+.nav-link:hover{
+    color:rgb(246, 255, 0);
+}
+
+.footer_{
+    background-color: rgb(90, 47, 160);
+    color:white;
+}
