@@ -1,9 +1,9 @@
 .expense-item {
-    display: flex;
+    /* display: flex; */
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 2rem;
-    justify-content: space-between;
+    font-size: 1.1rem;
+    /* justify-content:initial; */
     align-items: center;
     box-shadow: 0 2px 8px rgba(0,0,0,0.25);
     padding: 0.5rem;
@@ -12,38 +12,51 @@
     background-color: lightslategrey;
 }
 
-.expense-item-details{
-    display: flex;
+
+
+.expense-item-title{
+    padding: 0.8rem;
+    /* display: flex; */
     color: white;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: flex-end;
-    flex-flow: column-reverse;
-    justify-content: flex-start;
-    flex:1;
+    /* flex-direction: column; */
+    /* gap: 1rem; */
+    /* align-items: flex-end; */
+    /* flex-flow: column-reverse; */
+    /* justify-content: flex-start; */
+    /* flex:1; */
 }
 
 .expense-item-price{    
-    font-size: 1rem;
-    font-weight: bold;
     color: white;
-    background-color: #40005d;
-    border:1px solid white;
-    padding: 1rem;
-    border-radius: 12px;
+    padding: 0.8rem;
+    /* background-color: #40005d; */
+    /* border:1px solid white; */
+    /* border-radius: 12px; */
 }
-/* 
-.btn{
-    border:1px solid red;
-    padding: 0.65rem;
-    border-radius: 8px;
-    background-color: yellow;
-    color: black;
-    box-shadow: 0 2px 8px rgba(242, 1, 1, 0.25);
-} */
-@media (min-width:280px) {    
+
+.expense-item-price .price-round{
+    border:1px solid white;
+    background-color: #40005d;
+    border-radius: 14px;
+}
+.expense-item-delete{
+    padding: 1.2rem;
+}
+.expense-item-delete .delete-icon{
+   color: white;
+   font-size: 1rem;
+    border:1px solid white;
+    border-radius: 55px;
+    background-color: red;
+}
+
+.expense-item-delete .delete-icon:hover{
+    color: red;
+    background-color: white;
+}
+/* @media (min-width:280px) {     */
                                 /* Responsive css */
-    .expense-item{
+    /* .expense-item{
         font-size:1.15rem;
     }
     .expense-item-details{
@@ -56,5 +69,5 @@
 .expense-item-price{
     font-size: 1.15rem;
     padding: 0.5rem 1.25rem;
-}
-}
+} */
+/* } */

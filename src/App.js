@@ -1,12 +1,6 @@
 import React,{ useState,useEffect } from "react";
-
-import AddExpenses from "./Components/Add_New_Expenses/AddExpenses.js";
-
-import ExpenseDaTa from "./Components/All_Expenses/ExpenseDaTa.js";
-
 import Header from "./W_Main/header.js";  
 import Footer from "./W_Main/footer.js";  
-
 import Home from "./Pages/Home.js";
 import About from "./Pages/About.js";
 import Contact from "./Pages/Contact.js";

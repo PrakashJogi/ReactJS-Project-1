@@ -1,5 +1,4 @@
 import React, { useState } from "react"; //useReact fr any update or changes in our Apps or projects
-
 import "./ExpenseForm.css";
 
 const ExpenseForm = (props) =>
@@ -38,6 +37,7 @@ const ExpenseForm = (props) =>
         setAmountData("");
         setDateData("");
     }
+
 
 
     return(
