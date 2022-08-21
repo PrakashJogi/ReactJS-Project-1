@@ -9,15 +9,17 @@ import {BrowserRouter,Routes,Route,} from "react-router-dom";
 const App = () => 
 {
     return(
-        <div className="divv">
-            <Header />              
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="about" element={<About />} />
-                    <Route path="contact-us" element={<Contact />} />
-                    <Route path="/home" element={<Footer />} />
-                </Routes>      
-            <Footer />     
+        <div>
+            <BrowserRouter>
+                <Header />     
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="about" element={<About />} />
+                        <Route path="contact-us" element={<Contact />} />
+                        <Route path="/home" element={<Footer />} />
+                    </Routes>      
+                <Footer />     
+            </BrowserRouter>   
         </div>
     );
 }
