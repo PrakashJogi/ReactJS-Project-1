@@ -13,13 +13,17 @@
     display: block;
 }
 
+/* [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    margin: 2rem;
+} */
 .NewExpense input{
     /* font: inherit; */
     padding: 0.5rem;
     border-radius: 6px;
     /* margin: 1rem; */
     border: 1px solid #ccc;
-    width: 22rem;
+    width: 50%;
     max-width: 100%;
 }
 
@@ -29,4 +33,14 @@
 
 .input_text{
     padding: 0.3rem;
+}
+
+.btn_submit button{
+    justify-content: 1rem;
+    cursor: pointer;
+    padding: 0.50rem 1.50rem;
+    border: 1px solid #510674;
+    background-color:  #3b0bda;
+    border-radius: 8px;
+    margin: 5rem;
 }

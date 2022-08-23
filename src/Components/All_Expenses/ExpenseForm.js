@@ -1,5 +1,7 @@
 import React, { useState } from "react"; //useReact fr any update or changes in our Apps or projects
 import "./ExpenseForm.css";
+import "./Responsive.css";
+
 
 const ExpenseForm = (props) =>
 {
@@ -56,7 +58,7 @@ const ExpenseForm = (props) =>
                     <input className="date_" value={DateData} type="date" onChange={ ChangeDate } placeholder="" />
                 
             </div>
-            <div className="btn_submit">
+            <div className="btn_submit ">
                 <button type="submit" className="text-white add_expense_btnss">Add Expense</button>
             </div>
             </div>

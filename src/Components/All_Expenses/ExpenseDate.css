@@ -1,9 +1,9 @@
 .expense-date{
     display: flex;
     flex-direction: column;
-    width: 5.5rem;
-    height: 5.5rem;
-    border: 1px solid #ececec;
+    /* width: 5.5rem; */
+    /* height: 5.5rem; */
+    /* border: 1px solid #ececec; */
     background-color: #2a2a2a;
     color: white;
     border-radius: 12px;
@@ -12,7 +12,7 @@
 }
 
 .expense-date-day{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 .expense-date-month{
@@ -21,5 +21,5 @@
 }
 
 .expense-date-year{
-    font-size: 1.5rem;   
+    font-size: 1.2rem;   
 }

@@ -13,9 +13,9 @@
 }
 
 
-
 .expense-item-title{
     padding: 0.8rem;
+    /* background-color: darkblue; */
     /* display: flex; */
     color: white;
     /* flex-direction: column; */
@@ -24,11 +24,31 @@
     /* flex-flow: column-reverse; */
     /* justify-content: flex-start; */
     /* flex:1; */
+    margin: auto;
+}
+.row .card {
+    background-color: #2a2a2a;
+    /* padding: auto; */
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid white;
+    width:5.5rem;
+    height: 5.5rem;
 }
 
+
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.5rem;
+    /* background-color: red; */
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+ 
 .expense-item-price{    
     color: white;
     padding: 0.8rem;
+    margin: auto;
     /* background-color: #40005d; */
     /* border:1px solid white; */
     /* border-radius: 12px; */
@@ -38,36 +58,56 @@
     border:1px solid white;
     background-color: #40005d;
     border-radius: 14px;
+    margin: -1rem;
+    width: 9rem;
+    margin-left: 1.5rem;
 }
-.expense-item-delete{
+
+/* .expense-item-delete{
     padding: 1.2rem;
-}
+} */
 .expense-item-delete .delete-icon{
    color: white;
    font-size: 1rem;
     border:1px solid white;
     border-radius: 55px;
     background-color: red;
+    margin: 0.2rem;
 }
 
 .expense-item-delete .delete-icon:hover{
     color: red;
     background-color: white;
 }
-/* @media (min-width:280px) {     */
-                                /* Responsive css */
-    /* .expense-item{
-        font-size:1.15rem;
-    }
-    .expense-item-details{
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-        justify-content: flex;
+
+.expenseData{
+    padding: 1rem;
+    background-color: rgb(90, 47, 160);
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* 
+@media (min-width:300px) 
+{ 
+
+    .expenseData {
+    max-width: 95%;
     }
 
-.expense-item-price{
-    font-size: 1.15rem;
-    padding: 0.5rem 1.25rem;
-} */
-/* } */
+    .expense-item-delete .delete-icon{
+    margin:-11rem;
+    margin-left: 1.25rem;
+    }
+
+    .expense-item-price .price-round {
+        border-radius: 50px;
+        width:10rem;
+        margin-left:4rem;
+    } 
+ } */
